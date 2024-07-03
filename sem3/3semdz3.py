@@ -33,7 +33,7 @@ k = 'ноутбук'
 count = 0
 
 for l in k.upper():
-    for i, j in dict_1.items():
+    for i, j in dict_1.items() :
         if l in j:
             count += i
 print(count)
